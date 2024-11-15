@@ -1,0 +1,119 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styles */
+body {
+    padding-top: 20px; /* Adjust the value as needed */
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Horizontally center items */
+    justify-content: center; /* Vertically align items */
+    margin-bottom: 30px;
+}
+
+.profile-pic {
+    width: 150px; /* Fixed size for the image */
+    height: 150px; /* Fixed height */
+    border-radius: 50%; /* Makes the image circular */
+    border: 4px solid #2d9cdb; /* Adds a border */
+    object-fit: cover; /* Ensures the image fills the circle without distortion */
+    object-position: center; /* Centers the image vertically and horizontally */
+    margin: 0 auto; /* Centers the image if not already aligned */
+}
+.name {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #2d9cdb;
+}
+
+.bio {
+    font-size: 1.2rem;
+    color: #555;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info h2 {
+    font-size: 1.8rem;
+    color: #2d9cdb;
+    margin-bottom: 15px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 8px 0;
+}
+
+.contact-info a {
+    color: #2d9cdb;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h2 {
+    font-size: 1.8rem;
+    color: #2d9cdb;
+    margin-bottom: 15px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-list span {
+    background-color: #2d9cdb;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.skills-list span:hover {
+    transform: scale(1.1);
+}
